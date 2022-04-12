@@ -14,4 +14,4 @@ def fetch_users():
                 'home' : user.pw_dir,
                 'shell' : user.pw_shell,
             })
-return users
+    return users
